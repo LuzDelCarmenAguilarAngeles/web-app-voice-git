@@ -4,7 +4,7 @@ const resultDiv = document.getElementById('result');
 if ('webkitSpeechRecognition' in window) {
     const recognition = new webkitSpeechRecognition();
     recognition.lang = 'es-ES';
-
+//fs
     startButton.addEventListener('click', function() {
         recognition.start();
     });
